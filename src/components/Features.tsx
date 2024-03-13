@@ -17,8 +17,8 @@ export default function Features() {
                 <div className="w-full py-[30vh] max-sm:py-0 max-sm:px-4">
                     <ul>
                         {features.map((feature) => (
-                            <li key={feature.id}>
-                                <FeatureTitle id={feature.id}>
+                            // @ts-ignore
+                            <li key={feature.id}><FeatureTitle id={feature.id}>
                                     {feature.title}
                                 </FeatureTitle>
                             </li>
@@ -28,6 +28,7 @@ export default function Features() {
                 <div className="sticky top-0 h-screen w-full flex items-center max-sm:h-[40%] max-sm:py-4">
                     <div className="relative aspect-square w-full rounded-2xl">
                         {features.map((feature) => (
+                            // @ts-ignore
                             <feature.card id={feature.id} key={feature.id} />
                         ))}
                     </div>

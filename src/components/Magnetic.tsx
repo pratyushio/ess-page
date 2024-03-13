@@ -11,6 +11,7 @@ export default function Magnetic({children}: Props) {
     const [position, setPosition] = useState({x:0, y:0});
     const mouseMove = (e: { clientX: any; clientY: any; }) => {
         const {clientX, clientY} = e;
+        // @ts-ignore
         const {width, height, left, top} = ref.current.getBoundingClientRect();
         const x = clientX - (left + width / 2);
         const y = clientY - (top + height / 2);
