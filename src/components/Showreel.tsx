@@ -41,7 +41,7 @@ export default function Showreel() {
                         return (
                             <div key={index} className="el w-full h-full absolute top-0 flex items-center justify-center">
                                 <motion.div style={{scale}} className="imgContainer w-[20vw] h-[20vh] relative">
-                                    <img className="object-cover" src={src} fill alt="image" placeholder='blur' />
+                                    <img className="object-cover" src={src} alt="image" />
                                 </motion.div>
                             </div>
                         )
