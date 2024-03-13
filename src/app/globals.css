@@ -209,13 +209,41 @@ html {
 
 /* Showreel */
 
-ely:nth-of-type(2) .imgContainer {
+.el:nth-of-type(2) .imgContainer{
   top: -30vh;
   left: 5vw;
   width: 35vw;
-  height: 30vw;
+  height: 30vh;
 }
-
+.el:nth-of-type(3) .imgContainer{
+  top: -10vh;
+  left: -25vw;
+  width: 20vw;
+  height: 45vh;
+}
+.el:nth-of-type(4) .imgContainer{
+  left: 27.5vw;
+  width: 25vw;
+  height: 25vh;
+}
+.el:nth-of-type(5) .imgContainer{
+  top: 27.5vh;
+  left: 5vw;
+  width: 20vw;
+  height: 25vh;
+}
+.el:nth-of-type(6) .imgContainer{
+  top: 27.5vh;
+  left: -22.5vw;
+  width: 30vw;
+  height: 25vh;
+}
+.el:nth-of-type(7) .imgContainer{
+  top: 22.5vh;
+  left: 25vw;
+  width: 15vw;
+  height: 15vh;
+}
 
 /* Footer */
 

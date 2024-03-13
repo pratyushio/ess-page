@@ -21,6 +21,6 @@ export default function FeatureTitle({children, id}: Props) {
     }, [isInView, id, setInviewFeature, inViewFeature]);
 
     return (
-        <p ref={ref} className={classNames("py-16 max-sm:py-6 font-semibold lg:text-4xl sm:text-2xl transition-colors", isInView ? "text-black" : "text-gray-200")}>{children}</p>
+        <p ref={ref} className={classNames("py-16 max-sm:py-20 font-semibold lg:text-4xl sm:text-3xl transition-colors", isInView ? "text-black" : "text-gray-200")}>{children}</p>
     )
 }

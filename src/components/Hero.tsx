@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="min-h-screen bg-black text-gray-400 flex items-center justify-center">
       <div className="max-w-[900px] pt-8 max-sm:pt-16 px-4 flex flex-col gap-8 items-center justify-between z-20">
         <span className="bg-green-200 px-2 h-[25px] rounded-lg font-medium text-green-950">Beta launch</span>
-        <h1 className="text-white lg:px-12 md:px-12 sm:px-6 text-3xl lg:text-6xl md:text-5xl sm:text-3xl font-bold text-center">Welcome to the new gen <br />student network</h1>
+        <h1 className="text-white lg:px-12 md:px-12 sm:px-6 text-3xl lg:text-6xl md:text-5xl sm:text-3xl font-bold text-center">Welcome to the new gen student network</h1>
         <p className="max-w-[580px] text-center lg:text-xl sm:text-lg">Connect with thousand of like minded and share your learning, experiences and friendship.</p>
         {/* <p className="max-w-[580px] text-center lg:text-xl sm:text-lg">Join diverse student community: engage, collaborate. share.</p> */}
         {/* <a href="/" className="flex items-center bg-white text-black px-4 h-10 rounded-lg font-medium">Download App</a> */}

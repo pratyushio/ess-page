@@ -14,7 +14,7 @@ function FeatureCard({gradient, children, id}: FeatureCardProps) {
     const inViewFeature = useFeaturesStore((state) => state.inViewFeature);
 
     return (
-        <div className={classNames("absolute inset-0 h-full w-full rounded-2xl bg-gradient-to-br opacity-0", gradient, inViewFeature === id ? "opacity-100" : "opacity-0")}>
+        <div className={classNames("absolute inset-0 h-full w-full rounded-2xl bg-gradient-to-br", gradient, inViewFeature === id ? "opacity-100" : "opacity-0")}>
             {children}
         </div>
     )
@@ -24,7 +24,7 @@ function FeatureCard({gradient, children, id}: FeatureCardProps) {
 
 export const Feed = ({id}: CardProps) => {
     return (
-        <FeatureCard id={id} gradient="from-[#f7f0ff] to-[#a78afe]">
+        <FeatureCard id={id} gradient="from-[#f7f0ff] to-[#778afe] opacity-100">
             <img src="/phone-ess-home.png" alt="phone" className="phone absolute object-cover" />
         </FeatureCard>
     );
@@ -32,7 +32,7 @@ export const Feed = ({id}: CardProps) => {
 
 export const Peek = ({id}: CardProps) => {
     return (
-        <FeatureCard id={id} gradient="from-[#f7f0ff] to-[#aa77fe]">
+        <FeatureCard id={id} gradient="from-[#f7f0ff] to-[#aa77ff]">
             <img src="/phone-ess-peek.png" alt="phone" className="phone absolute object-cover" />
         </FeatureCard>
     );
