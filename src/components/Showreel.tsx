@@ -32,9 +32,9 @@ export default function Showreel() {
             <div className="h-[300vh] relative">
                 <div className="ely sticky top-0 h-[100vh] bg-orange-600 overflow-hidden">
                     <div className="sticky z-40 top-1/2">
-                        <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center p-4 rounded-lg bg-gray-800 backdrop-filter backdrop-blur-sm bg-opacity-60">
-                            <h2 className="text-gray-100 text-4xl font-semibold">Essential Network</h2>
-                            <p className="text-gray-300">If we do, we do big.</p>
+                        <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center p-8 rounded-2xl bg-gray-800 backdrop-filter backdrop-blur-sm bg-opacity-60">
+                            <h2 className="text-gray-100 text-5xl font-semibold">Essential Network</h2>
+                            <p className="text-gray-300 text-xl">If we do, we do big.</p>
                         </div>
                     </div>
                     {pictures.map(({src, scale}, index) => {
