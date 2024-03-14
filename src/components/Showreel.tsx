@@ -25,7 +25,7 @@ export default function Showreel() {
         {src: Pic2, scale: scale6},
         {src: Pic2, scale: scale8},
         {src: Pic2, scale: scale9},
-        // {src: Pic2, scale: scale8},
+        {src: Pic2, scale: scale8},
     ];
 
     return (
@@ -38,7 +38,7 @@ export default function Showreel() {
                         <p className="text-gray-300 text-xl">If we do, we do big.</p>
                     </div>
                 </div>
-                <div className="sticky top-0 h-[100vh] bg-orange-300 overflow-hidden">
+                <div className="sticky top-0 h-[100vh] bg-orange-400 overflow-hidden">
                     {pictures.map(({src, scale}, index) => {
                         return (
                             <motion.div key={index} style={{scale}} className="el w-full h-full absolute top-0 flex items-center justify-center">

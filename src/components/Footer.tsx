@@ -4,9 +4,9 @@ import Magnetic from "./Magnetic";
 export default function Footer() {
   return (
     <footer className="fixed bottom-0 w-screen h-screen pt-20 z-[-10] bg-orange-50">
-      <p className="px-16 max-sm:px-8">/essential</p>
+      <Link href="/" className="px-16 max-sm:px-8 text-gray-600">/essential</Link>
       <div className="flex items-center justify-between px-16 py-20 max-sm:py-8 max-sm:px-8 flex-wrap gap-6">
-        <h2 className="text-[#ff5c00] text-4xl lg:text-8xl md:text-6xl sm:text-4xl font-bold tracking-tighter">Your growth is <br /> closer with <br />essential.</h2>
+        <h2 className="text-[#ff5c00] text-4xl lg:text-8xl md:text-6xl sm:text-4xl max-sm:text-5xl max-sm:mt-8 max-sm:mb-4 font-bold tracking-tighter">Your growth is <br /> closer with <br />essential.</h2>
         {/* <div className="flex flex-col items-end gap-8"> */}
           {/* <a href="/" className="bg-orange-600 text-white flex items-center text-lg px-4 h-40 w-40 rounded-full font-semibold hover:bg-orange-700 hover:text-gray-300 mb-4">Download App</a> */}
           <Magnetic>
