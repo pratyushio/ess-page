@@ -250,3 +250,35 @@ html {
 footer a:hover {
   color: #111;
 }
+
+/* privacy & terms */
+
+.pt h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+.pt h2{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+.pt h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.pt p {
+  margin-left: 1rem;
+}
+.pt ul {
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+.pt li {
+  list-style: disc;
+}

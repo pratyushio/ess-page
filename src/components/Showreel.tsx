@@ -5,6 +5,10 @@ import { useRef } from "react";
 
 import Pic1 from './../../public/pic1.jpg';
 import Pic2 from './../../public/pic2.jpg';
+import Pic3 from './../../public/pic3.jpeg';
+import Pic4 from './../../public/pic4.jpeg';
+import Pic5 from './../../public/pic5.jpeg';
+import Pic6 from './../../public/pic6.jpeg';
 
 export default function Showreel() {
     const container = useRef(null);
@@ -19,12 +23,12 @@ export default function Showreel() {
     const scale9 = useTransform(scrollYProgress, [0, 1], [1, 9]);
     const pictures = [
         {src: Pic1, scale: scale4},
-        {src: Pic2, scale: scale5},
-        {src: Pic1, scale: scale6},
-        {src: Pic2, scale: scale5},
-        {src: Pic2, scale: scale6},
-        {src: Pic2, scale: scale8},
-        {src: Pic2, scale: scale9},
+        {src: Pic1, scale: scale5},
+        {src: Pic6, scale: scale6},
+        {src: Pic3, scale: scale5},
+        {src: Pic4, scale: scale6},
+        {src: Pic3, scale: scale8},
+        {src: Pic5, scale: scale9},
         {src: Pic2, scale: scale8},
     ];
 
@@ -33,12 +37,12 @@ export default function Showreel() {
             {/* <div className="reels"></div> */}
             <div className="h-[300vh] relative">
                 <div className="sticky z-40 top-1/2 -translate-y-16">
-                    <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center p-8 rounded-2xl bg-gray-950 backdrop-filter backdrop-blur-sm bg-opacity-60 max-sm:p-4 text-center max-sm:w-[80vw]">
-                        <h2 className="text-gray-50 text-5xl max-sm:text-2xl font-semibold">Essential Network</h2>
-                        <p className="text-gray-300 text-xl">If we do, we do big.</p>
+                    <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center rounded-2xl bg-gray-950 backdrop-filter backdrop-blur-sm bg-opacity-60 max-sm:p-4 text-center max-sm:w-[80vw]">
+                        <p className="text-gray-300 text-xl">Developed by</p>
+                        <h2 className="text-gray-50 text-5xl max-sm:text-3xl font-semibold">Essential Network</h2>
                     </div>
                 </div>
-                <div className="sticky top-0 h-[100vh] bg-orange-400 overflow-hidden">
+                <div className="sticky top-0 h-[100vh] bg-orange-600 overflow-hidden">
                     {pictures.map(({src, scale}, index) => {
                         return (
                             <motion.div key={index} style={{scale}} className="el w-full h-full absolute top-0 flex items-center justify-center">
