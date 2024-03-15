@@ -37,7 +37,7 @@ export default function Showreel() {
             {/* <div className="reels"></div> */}
             <div className="h-[300vh] relative">
                 <div className="sticky z-40 top-1/2 -translate-y-16">
-                    <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center rounded-2xl bg-gray-950 backdrop-filter backdrop-blur-sm bg-opacity-60 max-sm:p-4 text-center max-sm:w-[80vw]">
+                    <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center p-12 rounded-2xl bg-gray-950 backdrop-filter backdrop-blur-sm bg-opacity-60 max-sm:p-4 text-center max-sm:w-[80vw]">
                         <p className="text-gray-300 text-xl">Developed by</p>
                         <h2 className="text-gray-50 text-5xl max-sm:text-3xl font-semibold">Essential Network</h2>
                     </div>
