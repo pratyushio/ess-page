@@ -23,7 +23,7 @@ export default function Home() {
       <main className="z-10 shadow-lg mb-[100vh]">
         <Hero />
         <Features />
-        <Showreel />
+        {/* <Showreel /> */}
       </main>
       <Footer />
     </div>

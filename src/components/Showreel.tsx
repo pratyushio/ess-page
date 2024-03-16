@@ -3,12 +3,12 @@ import {useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 
-import Pic1 from './../../public/pic1.jpg';
-import Pic2 from './../../public/pic2.jpg';
-import Pic3 from './../../public/pic3.jpeg';
-import Pic4 from './../../public/pic4.jpeg';
-import Pic5 from './../../public/pic5.jpeg';
-import Pic6 from './../../public/pic6.jpeg';
+import Pic1 from './../../public/plug1.png';
+import Pic2 from './../../public/plug2.png';
+import Pic3 from './../../public/plug3.png';
+import Pic4 from './../../public/plug4.png';
+// import Pic5 from './../../public/pic5.jpeg';
+// import Pic6 from './../../public/pic6.jpeg';
 
 export default function Showreel() {
     const container = useRef(null);
@@ -24,11 +24,11 @@ export default function Showreel() {
     const pictures = [
         {src: Pic1, scale: scale4},
         {src: Pic1, scale: scale5},
-        {src: Pic6, scale: scale6},
+        {src: Pic4, scale: scale6},
         {src: Pic3, scale: scale5},
         {src: Pic4, scale: scale6},
         {src: Pic3, scale: scale8},
-        {src: Pic5, scale: scale9},
+        {src: Pic4, scale: scale9},
         {src: Pic2, scale: scale8},
     ];
 
@@ -38,7 +38,7 @@ export default function Showreel() {
             <div className="h-[300vh] relative">
                 <div className="sticky z-40 top-1/2 -translate-y-16">
                     <div className="absolute z-40 right-[50%] bottom-[50%] translate-x-1/2 translate-y-1/2 flex flex-col gap-2 items-center p-12 rounded-2xl bg-gray-950 backdrop-filter backdrop-blur-sm bg-opacity-60 max-sm:p-4 text-center max-sm:w-[80vw]">
-                        <p className="text-gray-300 text-xl">Developed by</p>
+                        <p className="text-gray-300 text-xl">engineered at</p>
                         <h2 className="text-gray-50 text-5xl max-sm:text-3xl font-semibold">Essential Network</h2>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default function Showreel() {
                         return (
                             <motion.div key={index} style={{scale}} className="el w-full h-full absolute top-0 flex items-center justify-center">
                                 <div className="imgContainer w-[25vw] h-[25vh] relative">
-                                    <Image className="object-cover" src={src} fill alt="image" placeholder='blur' />
+                                    <Image className="w-auto h-auto" src={src} fill alt="image" placeholder='blur' />
                                 </div>
                             </motion.div>
                         )
