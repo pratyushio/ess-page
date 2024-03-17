@@ -7,7 +7,6 @@ export default function Footer() {
       <Link href="/" className="px-16 max-sm:px-8 text-gray-600">/essential</Link>
       <div className="flex items-center justify-between px-16 py-20 max-sm:py-8 max-sm:px-8 flex-wrap gap-6">
         <h2 className="text-[#ff5c00] text-4xl lg:text-8xl md:text-6xl sm:text-4xl max-sm:text-5xl max-sm:mt-8 max-sm:mb-4 font-bold tracking-tighter">Your growth is <br /> closer with <br />essential.</h2>
-          <a href="/" className="bg-orange-600 text-white flex items-center text-lg px-4 h-40 w-40 rounded-full font-semibold hover:bg-orange-700 hover:text-gray-300 mb-4">Download App</a>
           <Magnetic>
             <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essentialv01.apk" className="border-2 border-dashed border-orange-600 text-orange-600 flex items-center text-center text-xl px-8 py-4 lg:h-40 lg:w-40 md:h-32 md:w-32 rounded-full bg-orange-600 bg-opacity-5 hover:bg-opacity-10 hover:text-orange-600 font-semibold mb-4">
               <Magnetic>
@@ -24,9 +23,9 @@ export default function Footer() {
             <Link href="/terms">Terms & condition</Link>
           </div>
           <div className="flex gap-4">
-            <a href="https://www.linkedin.com/company/essential-network/">IN</a>
-            <a href="https://twitter.com/essXnetwork">X</a>
-            <a href="https://www.youtube.com/@EssentialNetworkOfficial">YT</a>
+            <a target="_blank" href="https://www.linkedin.com/company/essential-network/">IN</a>
+            <a target="_blank" href="https://twitter.com/essXnetwork">X</a>
+            <a target="_blank" href="https://www.youtube.com/@EssentialNetworkOfficial">YT</a>
           </div>
         </div>
         <div className="flex justify-between">

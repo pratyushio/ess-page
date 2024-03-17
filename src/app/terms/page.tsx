@@ -1,7 +1,7 @@
 
 export default function terms() {
   return (
-    <section className="pt max-w-[1200px] m-auto my-16">
+    <section className="pt">
         <h1>Terms and Conditions</h1>
         <h2>Welcome to Essential Network</h2>
         <p>The guidelines for using the Essential Network Private Limited website and mobile application, which may be found at https://www.essentialnetwork.in/ or the Play Store & App Store, respectively, are provided in these terms and conditions. We presume that by using this website and mobile application, you agree to these terms and conditions. Please only use Essential going forward if you accept all of the terms and conditions listed below. <br />The terms "Client", "You" and "Your" relate to you, the person who logs on to this website or mobile application and complies with the terms and conditions of the company. This terminology also applies to the Privacy Statement, Disclaimer Notice, and any Agreements. Our company is referred to as "The Company," "Ourselves," "We," "Our," and "Us." The terms "Party", "Parties", or "Us" designate both the Client and our organization. In accordance with and subject to the applicable Dutch law, all terms refer to the offer, acceptance, and consideration of payment required to carry out the process of our assistance to the client in the most suitable manner with the specific goal of meeting the client's needs with regard to the provision of the Company's stated services. The terms listed above, as well as any additional terms used in the singular, plural, capitalization, and/or he/she/they, are understood to be interchangeable and to refer to the same.</p>

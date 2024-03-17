@@ -251,7 +251,11 @@ footer a:hover {
 }
 
 /* privacy & terms */
-
+.pt {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
 .pt h1{
   text-align: center;
   font-size: 2rem;

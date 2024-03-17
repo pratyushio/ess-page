@@ -1,7 +1,7 @@
 
 export default function privacy() {
   return (
-    <section className="pt max-w-[1200px] m-auto my-16">
+    <section className="pt">
         <h1>Privacy Policy</h1>
         <h2>Last updated: February 20, 2024</h2>
         <p>This Privacy Policy informs You about Your rights to privacy and your legal protections, as well as Our policies and practices regarding the gathering, storage, use, and sharing of Your information when you use the Service. <br />We utilize Your information to deliver and enhance the Service. By utilizing the Service, you consent to the information collection and use described in this Privacy Policy.</p>
