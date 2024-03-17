@@ -2,10 +2,9 @@
 
 Welcome to the landing page of essential network
 
-Visit [essential network](https://essentialnetwork.in)
+Visit [essentialnetwork.in](https://essentialnetwork.in)
 
-Build using NextJS
-Deployed on Vercel
+Build using NextJS && Deployed on Vercel
 
 ## Run
 
