@@ -9,6 +9,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Essential - The student network",
   description: "The new gen student network",
+  icons: {
+    icon: [
+      '/favicon.ico?v=1',
+    ],
+    apple: [
+      '/apple-touch-icon.png',
+    ],
+    shortcut: [
+      '/apple-touch-icon.png',
+    ]
+  },
+  manifest: '/site.webmanifest'
 };
 
 export default function RootLayout({
