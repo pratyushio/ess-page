@@ -9,7 +9,7 @@ export default function Hero() {
         <span className="px-2 h-[26px] rounded-lg font-medium text-green-700 border border-green-800 bg-opacity-10 bg-green-600">Beta launch</span>
         <h1 className="text-white lg:px-12 md:px-12 sm:px-6 text-3xl lg:text-6xl md:text-5xl sm:text-3xl font-bold text-center">Welcome to the New Gen Student Network</h1>
         <p className="max-w-[580px] text-center lg:text-xl sm:text-lg">Join diverse student community: engage, collaborate, share knowledge, resources, insights, and Productivity Peeks.</p>
-        <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essentialv01.apk" className="flex items-center bg-orange-600 text-white text-lg px-4 h-10 rounded-lg font-semibold hover:bg-orange-700">Download App</a>
+        <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essential_app_v01.apk" className="flex items-center bg-orange-600 text-white text-lg px-4 h-10 rounded-lg font-semibold hover:bg-orange-700">Download App</a>
         <div className="flex flex-col gap-4 items-center justify-center mb-4">
           <p className="mt-2 text-sm text-gray-500">Trusted and encouraged by</p>
           <div className="images flex gap-4">
