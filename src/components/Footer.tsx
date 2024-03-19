@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex items-center justify-between px-16 py-20 max-sm:py-8 max-sm:px-8 flex-wrap gap-6">
         <h2 className="text-[#ff5c00] text-4xl lg:text-8xl md:text-6xl sm:text-4xl max-sm:text-5xl max-sm:mt-8 max-sm:mb-4 font-bold tracking-tighter">Your growth is <br /> closer with <br />essential.</h2>
           <Magnetic>
-            <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essential_app_v01.apk" className="border-2 border-dashed border-orange-600 text-orange-600 flex items-center text-center text-xl px-8 py-4 lg:h-40 lg:w-40 md:h-32 md:w-32 rounded-full bg-orange-600 bg-opacity-5 hover:bg-opacity-10 hover:text-orange-600 font-semibold mb-4">
+            <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essential_v01.apk" className="border-2 border-dashed border-orange-600 text-orange-600 flex items-center text-center text-xl px-8 py-4 lg:h-40 lg:w-40 md:h-32 md:w-32 rounded-full bg-orange-600 bg-opacity-5 hover:bg-opacity-10 hover:text-orange-600 font-semibold mb-4">
               <Magnetic>
                 Download App
               </Magnetic>

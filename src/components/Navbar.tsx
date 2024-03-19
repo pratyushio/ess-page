@@ -15,7 +15,7 @@ export default function Navbar() {
             <li><a href="">About</a></li>
         </ul> */}
         {/* Download btn */}
-        <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essential_app_v01.apk" className="flex items-center bg-gray-200 px-4 h-10 rounded-lg font-medium hover:bg-white">Download App</a>
+        <a href="https://github.com/Essential-network/ess-app-release/releases/download/v0.1/essential_v01.apk" className="flex items-center bg-gray-200 px-4 h-10 rounded-lg font-medium hover:bg-white">Download App</a>
     </nav>
   )
 }
