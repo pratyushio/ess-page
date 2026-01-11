@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-between">
-          <p>&copy; 2024 Essential Network. All rights reserved.</p>
+          <p>&copy; {document.getElementById("year").textContent = new Date().getFullYear();} Essential Network. All rights reserved.</p>
           <Link href="/">TOP</Link>
         </div>
       </div>
